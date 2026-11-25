@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contato{
+    ul {list-style: none;}    
+}
+
+.projeto{
+    ul {list-style: none;}
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+figcaption {
+    font-size: 13px;
+    color: gray;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-top: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
